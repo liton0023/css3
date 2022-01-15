@@ -1,0 +1,119 @@
+body{
+margin: 0;
+font-family: 'Poppins', sans-serif;
+}
+.header-title{
+    margin-left: 40px;
+}
+/* cemara styles */
+main{
+    margin: 20px;
+}
+.container{
+    background-color: #FFFFFF;
+}
+.blog{
+    margin-left: 20px;
+}
+.paraghrap{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+.blogs{
+    width: 582px;
+    height: 270px;
+}
+.bottom {
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    background-color: orange;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.paraghrap img{
+    width: 440px;
+    height: 414px;
+    margin-top: -110px;
+    margin-left: 200px;
+    background-image: url(images/Circle\ design.svg);
+    background-position: center;
+}
+.paraghrap:hover .camera{
+    transform: rotate(45deg);
+    transform-origin: top right;
+}
+/* loges styles */
+.blog-title{
+    margin-top: 100px;
+}
+.logos{
+    background-color: white;
+    border: 1px solid #D1D1D1;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    margin: 110px;
+    margin-top: 50px;
+}
+/* populer collection styles */
+.populer{
+    text-align: center;
+    font-weight: 700;
+}
+.number{
+    font-size: 2em;
+}
+.photos{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 40px;
+}
+.rs img{
+    width: 250ox;
+    height: 250px;
+}
+.photo{
+    padding: 20px;
+    background-color:white;
+    background-position: center;
+    border-radius: 10px;
+}
+.fa-star{
+    width: 12px;
+}
+.fa-star.icon{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.photo-info{
+ font-size: 12px;
+}
+.id{
+    margin-left: 80%;
+}
+/* Extra items styles */
+.exta{
+    margin-top: 100px;
+    padding: 100px;
+    display: flex;
+    column-gap: 80px;
+}
+/* footers styles */
+.copyright{
+    height: 200px;
+    background-color: lightcoral;
+    box-sizing: border-box;
+}
+footer{
+    text-align: center;
+    padding-top: 40px
+}
